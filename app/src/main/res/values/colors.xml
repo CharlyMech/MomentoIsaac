@@ -3,4 +3,5 @@
     <color name="fuente_negra">#232323</color>
     <color name="blanco">#FAFAFA</color>
     <color name="lila_main">#d341b7</color>
+    <color name="transparente">#000000FF</color>
 </resources>
