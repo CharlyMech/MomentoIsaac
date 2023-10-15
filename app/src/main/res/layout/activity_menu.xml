@@ -47,7 +47,7 @@
                     android:background="@color/transparente"
                     android:textColor="@color/fuente_negra"
                     android:text="Las\nCariñosas"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
+                    android:drawableTop="@mipmap/isaac_play_foreground"
                     android:textSize="18sp"/>
 
                 <Button
@@ -57,7 +57,7 @@
                     android:background="@color/transparente"
                     android:textColor="@color/fuente_negra"
                     android:text="Eres un\ncabezón"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
+                    android:drawableTop="@mipmap/isaac_play_foreground"
                     android:textSize="18sp"/>
 
                 <Button
@@ -67,7 +67,7 @@
                     android:background="@color/transparente"
                     android:textColor="@color/fuente_negra"
                     android:text="Tu\nmasculinidad"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
+                    android:drawableTop="@mipmap/isaac_play_foreground"
                     android:textSize="18sp"/>
 
                 <Button
@@ -77,7 +77,7 @@
                     android:background="@color/transparente"
                     android:textColor="@color/fuente_negra"
                     android:text="Que coño\ndices"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
+                    android:drawableTop="@mipmap/isaac_play_foreground"
                     android:textSize="18sp"/>
 
                 <Button
@@ -87,7 +87,7 @@
                     android:background="@color/transparente"
                     android:textColor="@color/fuente_negra"
                     android:text="Y si me la\nchupas"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
+                    android:drawableTop="@mipmap/isaac_play_foreground"
                     android:textSize="18sp"/>
 
                 <Button
@@ -97,7 +97,7 @@
                     android:background="@color/transparente"
                     android:textColor="@color/fuente_negra"
                     android:text="Todas\nputas"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
+                    android:drawableTop="@mipmap/isaac_play_foreground"
                     android:textSize="18sp"/>
 
                 <Button
@@ -107,7 +107,7 @@
                     android:background="@color/transparente"
                     android:textColor="@color/fuente_negra"
                     android:text="Va tio\nno"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
+                    android:drawableTop="@mipmap/isaac_play_foreground"
                     android:textSize="18sp"/>
 
                 <Button
@@ -117,7 +117,7 @@
                     android:background="@color/transparente"
                     android:textColor="@color/fuente_negra"
                     android:text="Ya no soy\nbandido"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
+                    android:drawableTop="@mipmap/isaac_play_foreground"
                     android:textSize="18sp"/>
 
             </GridLayout>
