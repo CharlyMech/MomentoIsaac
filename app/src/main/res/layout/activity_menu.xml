@@ -23,102 +23,231 @@
 
     <!-- Contenido principal -->
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-500dp">
+        android:padding="15dp"
+        tools:ignore="SpeakableTextPresentCheck">
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical" >
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
 
             <GridLayout
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:columnCount="3">
+                android:columnCount="3"
+                android:layout_width="match_parent"
+                android:ems="10">
 
-                <Button
-                    android:id="@+id/isaac_carinyosas"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:background="@color/transparente"
-                    android:textColor="@color/fuente_negra"
-                    android:text="Las\nCariñosas"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
-                    android:textSize="18sp"/>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_sonidos">
+                    <ImageButton
+                        android:id="@+id/isaac_carinyosas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:background="@color/transparente"
+                        android:src="@mipmap/isaac_play_foreground" >
+                    </ImageButton>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:text="Las\ncariñosas"
+                        android:textColor="@color/fuente_negra"
+                        android:textSize="18sp">
+                    </TextView>
+                </LinearLayout>
 
-                <Button
-                    android:id="@+id/isaac_cabezon"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:background="@color/transparente"
-                    android:textColor="@color/fuente_negra"
-                    android:text="Eres un\ncabezón"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
-                    android:textSize="18sp"/>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_sonidos">
+                    <ImageButton
+                        android:id="@+id/isaac_cabezon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:background="@color/transparente"
+                        android:src="@mipmap/isaac_play_foreground" >
+                    </ImageButton>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:text="Eres un\ncabezón"
+                        android:textColor="@color/fuente_negra"
+                        android:textSize="18sp">
+                    </TextView>
+                </LinearLayout>
 
-                <Button
-                    android:id="@+id/isaac_masculinidad"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:background="@color/transparente"
-                    android:textColor="@color/fuente_negra"
-                    android:text="Tu\nmasculinidad"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
-                    android:textSize="18sp"/>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_sonidos">
+                    <ImageButton
+                        android:id="@+id/isaac_masculinidad"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:background="@color/transparente"
+                        android:src="@mipmap/isaac_play_foreground" >
+                    </ImageButton>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:text="Tu mascu-\nlinidad"
+                        android:textColor="@color/fuente_negra"
+                        android:textSize="18sp">
+                    </TextView>
+                </LinearLayout>
 
-                <Button
-                    android:id="@+id/isaac_conyo"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:background="@color/transparente"
-                    android:textColor="@color/fuente_negra"
-                    android:text="Que coño\ndices"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
-                    android:textSize="18sp"/>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_sonidos">
+                    <ImageButton
+                        android:id="@+id/isaac_conyo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:background="@color/transparente"
+                        android:src="@mipmap/isaac_play_foreground" >
+                    </ImageButton>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:text="Que coño\ndices"
+                        android:textColor="@color/fuente_negra"
+                        android:textSize="18sp">
+                    </TextView>
+                </LinearLayout>
 
-                <Button
-                    android:id="@+id/isaac_chupas"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:background="@color/transparente"
-                    android:textColor="@color/fuente_negra"
-                    android:text="Y si me la\nchupas"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
-                    android:textSize="18sp"/>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_sonidos">
+                    <ImageButton
+                        android:id="@+id/isaac_chupas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:background="@color/transparente"
+                        android:src="@mipmap/isaac_play_foreground" >
+                    </ImageButton>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:text="Y si me la\nchupas?"
+                        android:textColor="@color/fuente_negra"
+                        android:textSize="18sp">
+                    </TextView>
+                </LinearLayout>
 
-                <Button
-                    android:id="@+id/isaac_putas"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:background="@color/transparente"
-                    android:textColor="@color/fuente_negra"
-                    android:text="Todas\nputas"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
-                    android:textSize="18sp"/>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_sonidos">
+                    <ImageButton
+                        android:id="@+id/isaac_putas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:background="@color/transparente"
+                        android:src="@mipmap/isaac_play_foreground" >
+                    </ImageButton>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:text="Todas\nputas"
+                        android:textColor="@color/fuente_negra"
+                        android:textSize="18sp">
+                    </TextView>
+                </LinearLayout>
 
-                <Button
-                    android:id="@+id/isaac_tio"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:background="@color/transparente"
-                    android:textColor="@color/fuente_negra"
-                    android:text="Va tio\nno"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
-                    android:textSize="18sp"/>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_sonidos">
+                    <ImageButton
+                        android:id="@+id/isaac_tio"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:background="@color/transparente"
+                        android:src="@mipmap/isaac_play_foreground" >
+                    </ImageButton>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:text="Va tio\nno"
+                        android:textColor="@color/fuente_negra"
+                        android:textSize="18sp">
+                    </TextView>
+                </LinearLayout>
 
-                <Button
-                    android:id="@+id/isaac_bandido"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:background="@color/transparente"
-                    android:textColor="@color/fuente_negra"
-                    android:text="Ya no soy\nbandido"
-                    android:drawableTop="@mipmap/isaac_feliz_foreground"
-                    android:textSize="18sp"/>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_sonidos">
+                    <ImageButton
+                        android:id="@+id/isaac_bandido"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:background="@color/transparente"
+                        android:src="@mipmap/isaac_play_foreground" >
+                    </ImageButton>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:text="Ya no soy\nun bandido"
+                        android:textColor="@color/fuente_negra"
+                        android:textSize="18sp">
+                    </TextView>
+                </LinearLayout>
 
             </GridLayout>
 
