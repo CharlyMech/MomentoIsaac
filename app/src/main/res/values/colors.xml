@@ -4,4 +4,5 @@
     <color name="blanco">#FAFAFA</color>
     <color name="lila_main">#d341b7</color>
     <color name="transparente">#000000FF</color>
+    <color name="lila_sec">#FFBBF2</color>
 </resources>
