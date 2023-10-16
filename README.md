@@ -24,4 +24,4 @@ Escoge tu frase favorita y disfruta de las frases más características de nuest
 
 ## Instálala!
 
--  [Enlace al archivo .apk](./apk/MomentoIsaac.apk)
+-  [Enlace al archivo .apk](./apk/)
